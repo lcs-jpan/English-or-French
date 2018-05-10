@@ -14,7 +14,7 @@ import Foundation
 
 // Example of how to collect multiple input lines
 let expectedLines = 4
-print("Please enter the \(expectedLines) of text:")
+print("Please enter the \(expectedLines) lines of text:")
 for _ in 1...expectedLines {
     
     // Get the input (use guard-let to guarantee it is not nil)
