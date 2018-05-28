@@ -8,6 +8,7 @@ import Foundation
 // INPUT
 // Collect and filter user input here
 var inputLine = 0
+var input = 0
 
 while 1 == 1 {
     print("How many lines?")
@@ -46,14 +47,14 @@ for _ in 1...expectedLines {
     }
     // Now we have the line, we can print it out, analyze it as needed, et cetera
     for letter in givenLine {
-    switch letter {
-    case "S", "s":
-        frenchLetters += 1
-    case "T", "t":
-        englishLetters += 1
-    default:
-        break
-    }
+        switch letter {
+        case "S", "s":
+            frenchLetters += 1
+        case "T", "t":
+            englishLetters += 1
+        default:
+            break
+        }
     }
     
 }
